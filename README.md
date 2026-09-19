@@ -4,9 +4,7 @@
   </a>
 </p>
 
-<p align="center">
-  <strong>Hierarchical Action-Level Diffusion for Humanoid Motion Generation Control</strong>
-</p>
+<h1 align="center">Hierarchical Action-Level Diffusion for Humanoid Motion Generation Control</h1>
 
 <p align="center">
   <a href="https://masteryip.github.io/hoffman.github.io/"><img alt="Project website" src="https://img.shields.io/badge/Project_Website-E7A12B?style=for-the-badge&logo=googlechrome&logoColor=171817"></a>
@@ -32,11 +30,9 @@ The project studies a single control interface for text-conditioned motion, sema
 
 <p align="center">
   <a href="https://masteryip.github.io/hoffman.github.io/">
-    <img src="https://masteryip.github.io/hoffman.github.io/static/images/hoffman-banner-poster.jpg" width="100%" alt="HoffMan humanoid control project preview">
+    <img src="./docs/assets/Preview.png" width="100%" alt="HoffMan humanoid control project preview">
   </a>
 </p>
-
-<p align="center"><sub>Open the <a href="https://masteryip.github.io/hoffman.github.io/">project website</a> for the full method overview, figures, and interactive demo collection.</sub></p>
 
 ### At a glance
 
@@ -88,7 +84,7 @@ Click any preview to open the corresponding MP4 video. Videos are hosted by the 
 ## Resources
 
 | Resource | Description |
-|---|---|
+| --- | --- |
 | [Project website](https://masteryip.github.io/hoffman.github.io/) | Method overview, figures, authorship, and the complete demo gallery |
 | [Public repository](https://github.com/MasterYip/HoffMan) | Official release channel for future code and model updates |
 | [Demo collection](https://masteryip.github.io/hoffman.github.io/#evidence) | Simulation and hardware evidence in the browser |
