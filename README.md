@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/assets/hoffman-institution-strip.png" width="100%" alt="Harbin Institute of Technology, Shanghai Innovation Institute, RoboParty Lab, Tsinghua University, Shanghai Jiao Tong University, HexLab, and SFTR">
+  <img src="docs/assets/hoffman-institution-strip.svg" width="100%" alt="Harbin Institute of Technology, Shanghai Innovation Institute, RoboParty Lab, Tsinghua University, Shanghai Jiao Tong University, HexLab, and SFTR">
 </p>
 
 > [!IMPORTANT]
