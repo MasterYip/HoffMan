@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">HoffMan project banner</title>
+  <desc id="desc">HoffMan logo and project title on a dark technical background using the official slate, orange, charcoal, and paper color system.</desc>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171817"/>
+      <stop offset="0.72" stop-color="#262725"/>
+      <stop offset="1" stop-color="#171817"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.72">
+      <stop offset="0" stop-color="#7895A6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#171817" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#676A66" stroke-width="1" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="360" rx="28" fill="url(#ground)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#glow)"/>
+  <rect x="28" y="28" width="1344" height="304" rx="20" fill="url(#grid)" stroke="#676A66" stroke-width="1" opacity="0.72"/>
+
+  <g transform="translate(76 93)">
+    <g aria-label="predictive state sequence">
+      <rect x="0" y="66" width="28" height="28" rx="5" fill="#7895A6"/>
+      <rect x="38" y="50" width="28" height="44" rx="5" fill="#A9BEC8"/>
+      <rect x="76" y="30" width="28" height="64" rx="5" fill="#D3DDE1"/>
+      <rect x="114" y="4" width="28" height="86" rx="5" fill="none" stroke="#D3DDE1" stroke-width="6"/>
+    </g>
+    <path d="M-10 104H520" fill="none" stroke="#ECECEA" stroke-width="4" stroke-linecap="round"/>
+    <g aria-label="action sequence">
+      <rect x="0" y="116" width="28" height="9" rx="4.5" fill="#E7A12B"/>
+      <rect x="38" y="116" width="28" height="9" rx="4.5" fill="#E7A12B"/>
+      <rect x="76" y="116" width="28" height="19" rx="6" fill="#E7A12B"/>
+      <rect x="114" y="118" width="28" height="9" rx="4.5" fill="none" stroke="#E7A12B" stroke-width="4"/>
+    </g>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="256" y="189" fill="#ECECEA" font-size="92" font-weight="700" letter-spacing="-3">Hoff<tspan fill="#E7A12B">Man</tspan></text>
+    <text x="262" y="224" fill="#D9DAD6" font-size="17" font-weight="700" letter-spacing="2.1">HIERARCHICAL ACTION-LEVEL DIFFUSION</text>
+    <text x="262" y="255" fill="#A8A9A5" font-size="17">Humanoid motion generation control</text>
+
+    <line x1="930" y1="82" x2="930" y2="278" stroke="#777874" stroke-width="1"/>
+    <text x="984" y="112" fill="#E7A12B" font-size="15" font-weight="700" letter-spacing="2.8">PREDICT · PLAN · ACT</text>
+    <text x="984" y="160" fill="#ECECEA" font-size="30" font-weight="700">Predictive rolling-</text>
+    <text x="984" y="196" fill="#ECECEA" font-size="30" font-weight="700">denoising planning</text>
+    <text x="984" y="236" fill="#BBBCB8" font-size="16">Future states stay internal.</text>
+    <text x="984" y="261" fill="#BBBCB8" font-size="16">Selected actions reach the robot.</text>
+  </g>
+
+  <g transform="translate(984 286)" aria-label="state to planning to action flow">
+    <rect width="88" height="26" rx="13" fill="#7895A6"/>
+    <text x="44" y="18" text-anchor="middle" fill="#171817" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">STATE</text>
+    <path d="M96 13H124" stroke="#ECECEA" stroke-width="2" stroke-linecap="round"/>
+    <path d="m119 8 7 5-7 5" fill="none" stroke="#ECECEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="136" width="98" height="26" rx="13" fill="#ECECEA" stroke="#E7A12B" stroke-width="2"/>
+    <text x="185" y="18" text-anchor="middle" fill="#2F2F2D" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">PRDP</text>
+    <path d="M242 13H270" stroke="#ECECEA" stroke-width="2" stroke-linecap="round"/>
+    <path d="m265 8 7 5-7 5" fill="none" stroke="#ECECEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="282" width="92" height="26" rx="13" fill="#E7A12B"/>
+    <text x="328" y="18" text-anchor="middle" fill="#171817" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">ACTION</text>
+  </g>
+</svg>
