@@ -16,13 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="Harbin Institute of Technology" src="https://img.shields.io/badge/Harbin_Institute_of_Technology-5A5A57?style=flat-square&labelColor=5A5A57">
-  <img alt="Shanghai Innovation Institute" src="https://img.shields.io/badge/Shanghai_Innovation_Institute-5A5A57?style=flat-square&labelColor=5A5A57">
-  <img alt="RoboParty Lab" src="https://img.shields.io/badge/RoboParty_Lab-5A5A57?style=flat-square&labelColor=5A5A57">
-  <img alt="Tsinghua University" src="https://img.shields.io/badge/Tsinghua_University-5A5A57?style=flat-square&labelColor=5A5A57">
-  <img alt="Shanghai Jiao Tong University" src="https://img.shields.io/badge/Shanghai_Jiao_Tong_University-5A5A57?style=flat-square&labelColor=5A5A57">
-  <img alt="HexLab" src="https://img.shields.io/badge/HexLab-5A5A57?style=flat-square&labelColor=5A5A57">
-  <img alt="SFTR" src="https://img.shields.io/badge/SFTR-5A5A57?style=flat-square&labelColor=5A5A57">
+  <img src="docs/assets/hoffman-institution-strip.png" width="100%" alt="Harbin Institute of Technology, Shanghai Innovation Institute, RoboParty Lab, Tsinghua University, Shanghai Jiao Tong University, HexLab, and SFTR">
 </p>
 
 > [!IMPORTANT]
