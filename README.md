@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://masteryip.github.io/hoffman.github.io/">
+  <a href="https://masteryip.github.io/predactor.github.io/">
     <img src="docs/assets/predactor-readme-banner.svg" width="100%" alt="PredActor: predictive action diffusion for steerable onboard humanoid control. Internal future states, direct actions, CG and CFG guidance, and 50 Hz onboard execution.">
   </a>
 </p>
@@ -7,7 +7,7 @@
 <h1 align="center">PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control</h1>
 
 <p align="center">
-  <a href="https://masteryip.github.io/hoffman.github.io/"><img alt="Project website" src="https://img.shields.io/badge/Project_Website-E7A12B?style=for-the-badge&logo=googlechrome&logoColor=171817"></a>
+  <a href="https://masteryip.github.io/predactor.github.io/"><img alt="Project website" src="https://img.shields.io/badge/Project_Website-E7A12B?style=for-the-badge&logo=googlechrome&logoColor=171817"></a>
   <a href="#demos"><img alt="Demo videos" src="https://img.shields.io/badge/Demo_Videos-7895A6?style=for-the-badge&logo=youtube&logoColor=white"></a>
   <img alt="Code release coming soon" src="https://img.shields.io/badge/Code-Coming_Soon-5A5A57?style=for-the-badge">
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/License-MIT-ECECEA?style=for-the-badge&labelColor=2F2F2D&color=ECECEA"></a>
@@ -31,7 +31,7 @@ For onboard execution, rolling denoising and computation-preserving runtime opti
 ## Project preview
 
 <p align="center">
-  <a href="https://masteryip.github.io/hoffman.github.io/">
+  <a href="https://masteryip.github.io/predactor.github.io/">
     <img src="./docs/assets/predactor-preview.png" width="100%" alt="PredActor humanoid control project preview">
   </a>
 </p>
@@ -49,8 +49,8 @@ For onboard execution, rolling denoising and computation-preserving runtime opti
 Click any preview to open the corresponding MP4 video. Videos are hosted by the public project website and are not duplicated in this repository.
 
 <p align="center">
-  <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-mujoco-comprehensive.mp4">
-    <img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-mujoco-comprehensive.jpg" width="100%" alt="Comprehensive PredActor simulation demo">
+  <a href="https://masteryip.github.io/predactor.github.io/static/videos/hoffman-mujoco-comprehensive.mp4">
+    <img src="https://masteryip.github.io/predactor.github.io/static/videos/posters/hoffman-mujoco-comprehensive.jpg" width="100%" alt="Comprehensive PredActor simulation demo">
   </a>
 </p>
 
@@ -59,24 +59,24 @@ Click any preview to open the corresponding MP4 video. Videos are hosted by the 
 <table>
   <tr>
     <td width="50%" align="center">
-      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-behavioral-reaction.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-behavioral-reaction.jpg" width="100%" alt="PredActor hardware reaction demo"></a><br>
+      <a href="https://masteryip.github.io/predactor.github.io/static/videos/hoffman-behavioral-reaction.mp4"><img src="https://masteryip.github.io/predactor.github.io/static/videos/posters/hoffman-behavioral-reaction.jpg" width="100%" alt="PredActor hardware reaction demo"></a><br>
       <strong>Hardware · Physical interaction</strong><br>
       <sub>Walk and stand commands under external interference.</sub>
     </td>
     <td width="50%" align="center">
-      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-text-walk-squat-walk.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-text-walk-squat-walk.jpg" width="100%" alt="PredActor walk squat walk hardware demo"></a><br>
+      <a href="https://masteryip.github.io/predactor.github.io/static/videos/hoffman-text-walk-squat-walk.mp4"><img src="https://masteryip.github.io/predactor.github.io/static/videos/posters/hoffman-text-walk-squat-walk.jpg" width="100%" alt="PredActor walk squat walk hardware demo"></a><br>
       <strong>Hardware · Text control</strong><br>
       <sub>Walk, squat down, and return to walking.</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-text-walk-jog-squat.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-text-walk-jog-squat.jpg" width="100%" alt="PredActor walk jog squat hardware demo"></a><br>
+      <a href="https://masteryip.github.io/predactor.github.io/static/videos/hoffman-text-walk-jog-squat.mp4"><img src="https://masteryip.github.io/predactor.github.io/static/videos/posters/hoffman-text-walk-jog-squat.jpg" width="100%" alt="PredActor walk jog squat hardware demo"></a><br>
       <strong>Hardware · Behavior transitions</strong><br>
       <sub>Walk, accelerate to a jog, and transition into a squat.</sub>
     </td>
     <td width="50%" align="center">
-      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-joystick-steering.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-joystick-steering.jpg" width="100%" alt="PredActor joystick steering simulation demo"></a><br>
+      <a href="https://masteryip.github.io/predactor.github.io/static/videos/hoffman-joystick-steering.mp4"><img src="https://masteryip.github.io/predactor.github.io/static/videos/posters/hoffman-joystick-steering.jpg" width="100%" alt="PredActor joystick steering simulation demo"></a><br>
       <strong>Simulation · Joystick steering</strong><br>
       <sub>Directional steering with text-selected locomotion modes.</sub>
     </td>
@@ -87,9 +87,9 @@ Click any preview to open the corresponding MP4 video. Videos are hosted by the 
 
 | Resource | Description |
 | --- | --- |
-| [Project website](https://masteryip.github.io/hoffman.github.io/) | Method overview, figures, authorship, and the complete demo gallery |
-| [Public repository](https://github.com/MasterYip/HoffMan) | Official release channel for future code and model updates |
-| [Demo collection](https://masteryip.github.io/hoffman.github.io/#evidence) | Simulation and hardware evidence in the browser |
+| [Project website](https://masteryip.github.io/predactor.github.io/) | Method overview, figures, authorship, and the complete demo gallery |
+| [Public repository](https://github.com/MasterYip/PredActor) | Official release channel for future code and model updates |
+| [Demo collection](https://masteryip.github.io/predactor.github.io/#evidence) | Simulation and hardware evidence in the browser |
 | Paper and citation | Coming soon |
 
 ## Release status
