@@ -1,10 +1,14 @@
 <p align="center">
   <a href="https://masteryip.github.io/hoffman.github.io/">
-    <img src="docs/assets/hoffman-readme-banner.svg" width="100%" alt="HoffMan — Hierarchical Action-Level Diffusion for Humanoid Motion Generation Control">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/assets/predactor_on_dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="docs/assets/predactor_on_white.svg">
+      <img src="docs/assets/predactor_on_white.svg" width="600" alt="PredActor: Predictive Action Diffusion">
+    </picture>
   </a>
 </p>
 
-<h1 align="center">Hierarchical Action-Level Diffusion for Humanoid Motion Generation Control</h1>
+<h1 align="center">PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control</h1>
 
 <p align="center">
   <a href="https://masteryip.github.io/hoffman.github.io/"><img alt="Project website" src="https://img.shields.io/badge/Project_Website-E7A12B?style=for-the-badge&logo=googlechrome&logoColor=171817"></a>
@@ -22,25 +26,27 @@
 
 ## Overview
 
-**HoffMan** is a hierarchical action-level diffusion framework for humanoid motion generation and control. Its predictive rolling-denoising planning process jointly models future robot states and actions from proprioceptive history and optional task context. Predicted states remain inside the planning process, while the selected action is sent directly to the robot.
+**PredActor** augments action diffusion with an internal future-state trajectory for look-ahead guidance while retaining direct action execution. Within a joint state-action formulation, it predicts future states and actions from proprioceptive history and optional task context. Unlike a generator-tracker pipeline, predicted states remain inside the policy rather than becoming motion references for a separate tracker. Unlike action-only diffusion, the policy provides an explicit future-state trajectory for guidance.
 
-The project studies a single control interface for text-conditioned motion, semantic interpolation, joystick steering, and reaction to physical interaction across simulation and hardware demonstrations.
+This representation supports two complementary steering mechanisms: **classifier guidance (CG)** applies test-time objectives to predicted states, and **classifier-free guidance (CFG)** strengthens learned behavior conditions, including text commands. The selected action is sent directly to the joint controller; policy observations require only proprioception, not externally estimated full-body states.
+
+For onboard execution, rolling denoising and computation-preserving runtime optimizations support **50 Hz control on a Unitree G1's Jetson Orin NX**. The measured complete callback takes **16.790 ms median and 19.383 ms p95**, both below the 20 ms control period. Across simulation and physical-robot evaluation, demonstrations cover text commands, disturbance response, joystick steering, and semantic interpolation.
 
 ## Project preview
 
 <p align="center">
   <a href="https://masteryip.github.io/hoffman.github.io/">
-    <img src="./docs/assets/Preview.png" width="100%" alt="HoffMan humanoid control project preview">
+    <img src="./docs/assets/predactor-preview.png" width="100%" alt="PredActor humanoid control project preview">
   </a>
 </p>
 
 ### At a glance
 
-- **Predictive control:** jointly predicts future state and action trajectories.
-- **Rolling denoising:** reuses the planning horizon across control ticks for online generation.
-- **Direct action output:** executes a selected action without a separate motion-tracking handoff.
-- **Flexible conditioning:** supports task context and optional state-space guidance.
-- **Simulation and hardware:** demonstrates commands, transitions, steering, and physical interaction.
+- **Predictive direct control:** jointly predicts future states and actions, keeps states internal, and executes the selected action without a separate motion-reference tracker.
+- **Proprioceptive inputs:** conditions on onboard proprioceptive history without requiring externally estimated full-body states as policy inputs.
+- **CG and CFG steering:** combines test-time objectives on predicted states with learned behavior conditioning.
+- **Rolling onboard inference:** reuses the denoising horizon across control ticks and optimizes runtime for 50 Hz operation on Jetson Orin NX.
+- **Simulation and hardware evidence:** demonstrates commands, transitions, steering, and disturbance response.
 
 ## Demos
 
@@ -48,7 +54,7 @@ Click any preview to open the corresponding MP4 video. Videos are hosted by the 
 
 <p align="center">
   <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-mujoco-comprehensive.mp4">
-    <img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-mujoco-comprehensive.jpg" width="100%" alt="Comprehensive HoffMan simulation demo">
+    <img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-mujoco-comprehensive.jpg" width="100%" alt="Comprehensive PredActor simulation demo">
   </a>
 </p>
 
@@ -57,24 +63,24 @@ Click any preview to open the corresponding MP4 video. Videos are hosted by the 
 <table>
   <tr>
     <td width="50%" align="center">
-      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-behavioral-reaction.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-behavioral-reaction.jpg" width="100%" alt="HoffMan hardware reaction demo"></a><br>
+      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-behavioral-reaction.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-behavioral-reaction.jpg" width="100%" alt="PredActor hardware reaction demo"></a><br>
       <strong>Hardware · Physical interaction</strong><br>
       <sub>Walk and stand commands under external interference.</sub>
     </td>
     <td width="50%" align="center">
-      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-text-walk-squat-walk.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-text-walk-squat-walk.jpg" width="100%" alt="HoffMan walk squat walk hardware demo"></a><br>
+      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-text-walk-squat-walk.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-text-walk-squat-walk.jpg" width="100%" alt="PredActor walk squat walk hardware demo"></a><br>
       <strong>Hardware · Text control</strong><br>
       <sub>Walk, squat down, and return to walking.</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-text-walk-jog-squat.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-text-walk-jog-squat.jpg" width="100%" alt="HoffMan walk jog squat hardware demo"></a><br>
+      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-text-walk-jog-squat.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-text-walk-jog-squat.jpg" width="100%" alt="PredActor walk jog squat hardware demo"></a><br>
       <strong>Hardware · Behavior transitions</strong><br>
       <sub>Walk, accelerate to a jog, and transition into a squat.</sub>
     </td>
     <td width="50%" align="center">
-      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-joystick-steering.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-joystick-steering.jpg" width="100%" alt="HoffMan joystick steering simulation demo"></a><br>
+      <a href="https://masteryip.github.io/hoffman.github.io/static/videos/hoffman-joystick-steering.mp4"><img src="https://masteryip.github.io/hoffman.github.io/static/videos/posters/hoffman-joystick-steering.jpg" width="100%" alt="PredActor joystick steering simulation demo"></a><br>
       <strong>Simulation · Joystick steering</strong><br>
       <sub>Directional steering with text-selected locomotion modes.</sub>
     </td>
