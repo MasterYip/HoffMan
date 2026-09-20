@@ -1,10 +1,6 @@
 <p align="center">
   <a href="https://masteryip.github.io/hoffman.github.io/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="docs/assets/predactor_on_dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="docs/assets/predactor_on_white.svg">
-      <img src="docs/assets/predactor_on_white.svg" width="600" alt="PredActor: Predictive Action Diffusion">
-    </picture>
+    <img src="docs/assets/predactor-readme-banner.svg" width="100%" alt="PredActor: predictive action diffusion for steerable onboard humanoid control. Internal future states, direct actions, CG and CFG guidance, and 50 Hz onboard execution.">
   </a>
 </p>
 
@@ -18,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/assets/hoffman-institution-strip.svg" width="100%" alt="Harbin Institute of Technology, Shanghai Innovation Institute, RoboParty Lab, Tsinghua University, Shanghai Jiao Tong University, HexLab, and SFTR">
+  <img src="docs/assets/institution-strip.svg" width="100%" alt="Harbin Institute of Technology, Shanghai Innovation Institute, RoboParty Lab, Tsinghua University, Shanghai Jiao Tong University, HexLab, and SFTR">
 </p>
 
 > [!IMPORTANT]

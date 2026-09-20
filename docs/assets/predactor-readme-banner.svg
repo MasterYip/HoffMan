@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 360">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .13em;
+      }
+
+      .cls-2 {
+        opacity: .12;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-2, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-12 {
+        stroke: #676a66;
+      }
+
+      .cls-3 {
+        stroke: #d8d8d8;
+        stroke-width: 8.98px;
+      }
+
+      .cls-18, .cls-19, .cls-6 {
+        stroke-width: 2px;
+      }
+
+      .cls-18, .cls-5 {
+        stroke: #e7a12b;
+      }
+
+      .cls-18, .cls-15, .cls-17 {
+        fill: #ececea;
+      }
+
+      .cls-20 {
+        fill: #a1adb2;
+      }
+
+      .cls-9 {
+        fill: #171817;
+      }
+
+      .cls-9, .cls-10, .cls-13, .cls-14, .cls-16, .cls-17 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-9, .cls-14 {
+        font-size: 12px;
+      }
+
+      .cls-21 {
+        fill: #829199;
+      }
+
+      .cls-10, .cls-22, .cls-16 {
+        fill: #e7a12b;
+      }
+
+      .cls-10, .cls-13 {
+        font-size: 100px;
+        letter-spacing: -.03em;
+      }
+
+      .cls-19, .cls-6 {
+        stroke: #ececea;
+      }
+
+      .cls-19, .cls-6, .cls-8 {
+        stroke-linecap: round;
+      }
+
+      .cls-11 {
+        fill: #bbbcb8;
+        font-size: 16px;
+      }
+
+      .cls-11, .cls-15 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-12 {
+        fill: url(#grid);
+        opacity: .72;
+      }
+
+      .cls-5, .cls-8 {
+        stroke-width: 6.73px;
+      }
+
+      .cls-23 {
+        letter-spacing: .2em;
+      }
+
+      .cls-6, .cls-8 {
+        stroke-linejoin: round;
+      }
+
+      .cls-24 {
+        letter-spacing: .09em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-26 {
+        fill: url(#_未命名的渐变);
+      }
+
+      .cls-13 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        stroke: #777874;
+      }
+
+      .cls-14 {
+        fill: #2f2f2d;
+      }
+
+      .cls-15 {
+        font-size: 21.17px;
+      }
+
+      .cls-27 {
+        letter-spacing: .14em;
+      }
+
+      .cls-28 {
+        fill: #c6cacc;
+      }
+
+      .cls-16 {
+        font-size: 15px;
+      }
+
+      .cls-8 {
+        stroke: #fff;
+      }
+
+      .cls-17 {
+        font-size: 30px;
+      }
+
+      .cls-29 {
+        fill: url(#_未命名的渐变_2);
+      }
+    </style>
+    <linearGradient id="_未命名的渐变" data-name="未命名的渐变" x1="-258.81" y1="720" x2="-257.82" y2="719" gradientTransform="translate(362341 259201) scale(1400 -360)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#171817"/>
+      <stop offset=".72" stop-color="#262725"/>
+      <stop offset="1" stop-color="#171817"/>
+    </linearGradient>
+    <radialGradient id="_未命名的渐变_2" data-name="未命名的渐变 2" cx="-258.04" cy="719.82" fx="-258.04" fy="719.82" r=".7" gradientTransform="translate(362341 259201) scale(1400 -360)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7895a6" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#171817" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="36" height="36" patternTransform="translate(7 -15267) scale(1 -1)" patternUnits="userSpaceOnUse" viewBox="0 0 36 36">
+      <g>
+        <rect class="cls-4" width="36" height="36"/>
+        <path class="cls-2" d="M36,36H0V0"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect class="cls-26" width="1400" height="360" rx="28" ry="28"/>
+  <rect class="cls-29" width="1400" height="360" rx="28" ry="28"/>
+  <rect class="cls-12" x="28" y="28" width="1344" height="304" rx="20" ry="20"/>
+  <line class="cls-7" x1="910" y1="82" x2="910" y2="278"/>
+  <text class="cls-16" transform="translate(980 100)"><tspan x="0" y="0">PREDICT · GUIDE · ACT</tspan></text>
+  <text class="cls-17" transform="translate(980 140)"><tspan x="0" y="0">Steerable onboard</tspan></text>
+  <text class="cls-17" transform="translate(980 172)"><tspan x="0" y="0">humanoid control</tspan></text>
+  <text class="cls-11" transform="translate(980 205)"><tspan x="0" y="0">Future states stay internal.</tspan></text>
+  <text class="cls-11" transform="translate(980 223)"><tspan x="0" y="0">Direct actions. CG + CFG. Onboard 50 Hz.</tspan></text>
+  <path class="cls-21" d="M989.17,247h43.76c5.07,0,9.17,5.82,9.17,13h0c0,7.18-4.11,13-9.17,13h-43.76c-5.07,0-9.17-5.82-9.17-13h0c0-7.18,4.11-13,9.17-13Z"/>
+  <text class="cls-9" transform="translate(998.05 264)"><tspan x="0" y="0">OBS</tspan></text>
+  <g>
+    <path class="cls-19" d="M1051,260h30"/>
+    <path class="cls-6" d="M1074,255l7,5-7,5"/>
+  </g>
+  <path class="cls-18" d="M1108.23,247h47.65c4.75,0,8.6,5.82,8.6,13h0c0,7.18-3.85,13-8.6,13h-47.65c-4.75,0-8.6-5.82-8.6-13h0c0-7.18,3.85-13,8.6-13Z"/>
+  <text class="cls-14" text-anchor="middle" transform="translate(1132.06 264)"><tspan x="0" y="0">PredActor</tspan></text>
+  <g>
+    <path class="cls-19" d="M1183.11,260h28"/>
+    <path class="cls-6" d="M1206.11,255l7,5-7,5"/>
+  </g>
+  <path class="cls-22" d="M1229.98,247h40.49c4.4,0,7.98,5.82,7.98,13h0c0,7.18-3.57,13-7.98,13h-40.49c-4.4,0-7.98-5.82-7.98-13h0c0-7.18,3.57-13,7.98-13Z"/>
+  <text class="cls-9" transform="translate(1227.22 264)"><tspan x="0" y="0">ACTION</tspan></text>
+  <rect id="state-1" class="cls-21" x="196.38" y="162.75" width="34.63" height="34.63" rx="3" ry="3"/>
+  <rect id="state-2" class="cls-20" x="242.56" y="143.51" width="34.63" height="53.88" rx="3" ry="3"/>
+  <rect id="state-3" class="cls-28" x="288.73" y="120.42" width="34.63" height="76.97" rx="3" ry="3"/>
+  <rect id="state-4" class="cls-3" x="334.91" y="95.4" width="34.63" height="98.13" rx="3" ry="3"/>
+  <line id="horizon-1" class="cls-8" x1="184.83" y1="207" x2="840" y2="207"/>
+  <path id="action-1" class="cls-22" d="M202.15,217.58h23.09c3.19,0,5.77,2.58,5.77,5.77h0c0,3.19-2.58,5.77-5.77,5.77h-23.09c-3.19,0-5.77-2.58-5.77-5.77h0c0-3.19,2.58-5.77,5.77-5.77Z"/>
+  <path id="action-2" class="cls-22" d="M248.33,217.58h23.09c3.19,0,5.77,2.58,5.77,5.77h0c0,3.19-2.58,5.77-5.77,5.77h-23.09c-3.19,0-5.77-2.58-5.77-5.77h0c0-3.19,2.58-5.77,5.77-5.77Z"/>
+  <rect id="action-3" class="cls-22" x="288.73" y="217.58" width="34.63" height="25.01" rx="3" ry="3"/>
+  <path id="action-4" class="cls-5" d="M340.69,220.47h23.09c3.19,0,5.77,2.58,5.77,5.77h0c0,3.19-2.58,5.77-5.77,5.77h-23.09c-3.19,0-5.77-2.58-5.77-5.77h0c0-3.19,2.58-5.77,5.77-5.77Z"/>
+  <text class="cls-13" transform="translate(391.49 197.38)"><tspan x="0" y="0">Pred</tspan></text>
+  <text class="cls-10" transform="translate(579.18 197.38)"><tspan x="0" y="0">Actor</tspan></text>
+  <text id="descriptor-native" class="cls-15" transform="translate(393.49 232.98)"><tspan class="cls-23" x="0" y="0">PREDICTIVE</tspan><tspan class="cls-27" x="169.34" y="0"> </tspan><tspan class="cls-23" x="178.29" y="0">ACTION DIFFUSION</tspan></text>
+</svg>
