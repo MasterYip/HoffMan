@@ -4,67 +4,61 @@
   <defs>
     <style>
       .st0 {
-        letter-spacing: .1em;
+        fill: url(#grid);
+        opacity: .7;
       }
 
-      .st0, .st1, .st2, .st3 {
-        fill: #ececea;
-      }
-
-      .st0, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st2, .st12, .st3 {
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
         isolation: isolate;
       }
 
-      .st0, .st7, .st2 {
-        font-family: ArialMT, Arial;
+      .st0, .st5 {
+        stroke: #676a66;
       }
 
-      .st0, .st2 {
-        font-size: 21.2px;
+      .st11 {
+        stroke: #d8d8d8;
+        stroke-width: 9px;
       }
 
-      .st1, .st13, .st14 {
-        stroke-width: 2px;
-      }
-
-      .st1, .st15 {
-        stroke: #e7a12b;
-      }
-
-      .st16 {
-        stroke: #fff;
-      }
-
-      .st16, .st17, .st6, .st14, .st18, .st19, .st15 {
+      .st11, .st12, .st13, .st14, .st15, .st5, .st16 {
         fill: none;
       }
 
-      .st16, .st13, .st14 {
-        stroke-linecap: round;
+      .st17, .st18, .st14 {
+        stroke-width: 2px;
       }
 
-      .st16, .st14 {
-        stroke-linejoin: round;
+      .st17, .st13 {
+        stroke: #e7a12b;
       }
 
-      .st16, .st15 {
-        stroke-width: 6.7px;
+      .st17, .st8, .st10 {
+        fill: #ececea;
+      }
+
+      .st1, .st2, .st6, .st7, .st8, .st9 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1, .st19, .st7 {
+        fill: #e7a12b;
+      }
+
+      .st1, .st9 {
+        font-size: 95px;
       }
 
       .st20 {
         fill: #a1adb2;
       }
 
-      .st4 {
+      .st2 {
         fill: #171817;
       }
 
-      .st4, .st5, .st10, .st11, .st12, .st3 {
-        font-family: Arial-BoldMT, Arial;
-        font-weight: 700;
-      }
-
-      .st4, .st11 {
+      .st2, .st6 {
         font-size: 12px;
       }
 
@@ -72,154 +66,178 @@
         fill: #829199;
       }
 
-      .st5, .st22, .st12 {
-        fill: #e7a12b;
-      }
-
-      .st5, .st10 {
-        font-size: 100px;
-        letter-spacing: 0em;
-      }
-
-      .st6 {
-        opacity: .1;
-      }
-
-      .st6, .st8 {
-        stroke: #676a66;
-      }
-
-      .st13, .st14 {
+      .st18, .st14 {
         stroke: #ececea;
       }
 
-      .st7 {
+      .st18, .st14, .st15 {
+        stroke-linecap: round;
+      }
+
+      .st3 {
         fill: #bbbcb8;
         font-size: 16px;
       }
 
-      .st8 {
-        fill: url(#grid);
-        opacity: .7;
+      .st3, .st10 {
+        font-family: ArialMT, Arial;
       }
 
-      .st23 {
+      .st13, .st15 {
+        stroke-width: 6.7px;
+      }
+
+      .st14, .st15 {
+        stroke-linejoin: round;
+      }
+
+      .st22 {
         fill: url(#_未命名的渐变);
       }
 
-      .st10 {
-        fill: #fff;
+      .st15 {
+        stroke: #fff;
       }
 
-      .st18 {
+      .st5 {
+        opacity: .1;
+      }
+
+      .st16 {
         stroke: #777874;
       }
 
-      .st11 {
+      .st6 {
         fill: #2f2f2d;
       }
 
-      .st2 {
-        letter-spacing: .2em;
-      }
-
-      .st19 {
-        stroke: #d8d8d8;
-        stroke-width: 9px;
-      }
-
-      .st24 {
+      .st23 {
         fill: #c6cacc;
       }
 
-      .st12 {
+      .st7 {
         font-size: 15px;
       }
 
-      .st3 {
+      .st8 {
         font-size: 30px;
       }
 
-      .st25 {
+      .st9 {
+        fill: #fff;
+      }
+
+      .st10 {
+        font-size: 21.2px;
+        letter-spacing: .2em;
+      }
+
+      .st24 {
         fill: url(#_未命名的渐变_2);
       }
     </style>
-    <linearGradient id="_未命名的渐变" data-name="未命名的渐变" x1="-517.6" y1="2" x2="-516.6" y2="3" gradientTransform="translate(724682 -718) scale(1400 360)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="_未命名的渐变" data-name="未命名的渐变" x1="-776.4" y1="718" x2="-775.4" y2="717" gradientTransform="translate(1087023 258483) scale(1400 -360)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#171817"/>
       <stop offset=".7" stop-color="#262725"/>
       <stop offset="1" stop-color="#171817"/>
     </linearGradient>
-    <radialGradient id="_未命名的渐变_2" data-name="未命名的渐变 2" cx="-516.9" cy="2.2" fx="-516.9" fy="2.2" r=".7" gradientTransform="translate(724682 -718) scale(1400 360)" gradientUnits="userSpaceOnUse">
+    <radialGradient id="_未命名的渐变_2" data-name="未命名的渐变 2" cx="-775.7" cy="717.8" fx="-775.7" fy="717.8" r=".7" gradientTransform="translate(1087023 258483) scale(1400 -360)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#7895a6" stop-opacity=".2"/>
       <stop offset="1" stop-color="#171817" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" x="0" y="0" width="36" height="36" patternTransform="translate(14 16742)" patternUnits="userSpaceOnUse" viewBox="0 0 36 36">
+    <pattern id="grid" x="0" y="0" width="36" height="36" patternTransform="translate(21 -32009) scale(1 -1)" patternUnits="userSpaceOnUse" viewBox="0 0 36 36">
       <g>
-        <rect class="st17" width="36" height="36"/>
+        <rect class="st12" width="36" height="36"/>
         <g>
-          <rect class="st17" width="36" height="36"/>
-          <path class="st6" d="M36,0H0v36"/>
+          <rect class="st12" width="36" height="36"/>
+          <g>
+            <rect class="st12" width="36" height="36"/>
+            <path class="st5" d="M36,36H0V0"/>
+          </g>
         </g>
       </g>
     </pattern>
   </defs>
-  <rect class="st23" width="1400" height="360" rx="28" ry="28"/>
-  <rect class="st25" width="1400" height="360" rx="28" ry="28"/>
-  <rect class="st8" x="28" y="28" width="1344" height="304" rx="20" ry="20"/>
-  <line class="st18" x1="910" y1="82" x2="910" y2="278"/>
-  <g class="st9">
-    <text class="st12" transform="translate(980 104)"><tspan x="0" y="0">PREDICT · GUIDE · ACT</tspan></text>
+  <rect class="st22" width="1400" height="360" rx="28" ry="28"/>
+  <rect class="st24" width="1400" height="360" rx="28" ry="28"/>
+  <rect class="st0" x="28" y="28" width="1344" height="304" rx="20" ry="20"/>
+  <line class="st16" x1="910" y1="82" x2="910" y2="278"/>
+  <g class="st4">
+    <g class="st4">
+      <text class="st7" transform="translate(980 104)"><tspan x="0" y="0">PREDICT · GUIDE · ACT</tspan></text>
+    </g>
   </g>
-  <g class="st9">
-    <text class="st3" transform="translate(980 142)"><tspan x="0" y="0">Steerable onboard</tspan></text>
+  <g class="st4">
+    <g class="st4">
+      <text class="st8" transform="translate(980 142)"><tspan x="0" y="0">Steerable onboard</tspan></text>
+    </g>
   </g>
-  <g class="st9">
-    <text class="st3" transform="translate(980 174)"><tspan x="0" y="0">humanoid control</tspan></text>
+  <g class="st4">
+    <g class="st4">
+      <text class="st8" transform="translate(980 174)"><tspan x="0" y="0">humanoid control</tspan></text>
+    </g>
   </g>
-  <g class="st9">
-    <text class="st7" transform="translate(980 205)"><tspan x="0" y="0">Future states stay internal.</tspan></text>
+  <g class="st4">
+    <g class="st4">
+      <text class="st3" transform="translate(980 205)"><tspan x="0" y="0">Future states stay internal.</tspan></text>
+    </g>
   </g>
-  <g class="st9">
-    <text class="st7" transform="translate(980 223)"><tspan x="0" y="0">Direct actions. CG + CFG. Onboard 50 Hz.</tspan></text>
+  <g class="st4">
+    <g class="st4">
+      <text class="st3" transform="translate(980 223)"><tspan x="0" y="0">Direct actions. CG + CFG. Onboard 50 Hz.</tspan></text>
+    </g>
   </g>
   <path class="st21" d="M989.2,240h43.8c5.1,0,9.2,5.8,9.2,13h0c0,7.2-4.1,13-9.2,13h-43.8c-5.1,0-9.2-5.8-9.2-13h0c0-7.2,4.1-13,9.2-13h0Z"/>
-  <g class="st9">
-    <text class="st4" transform="translate(998.1 257)"><tspan x="0" y="0">OBS</tspan></text>
+  <g class="st4">
+    <g class="st4">
+      <text class="st2" transform="translate(998.1 257)"><tspan x="0" y="0">OBS</tspan></text>
+    </g>
   </g>
   <g>
-    <path class="st13" d="M1048,253h30"/>
+    <path class="st18" d="M1048,253h30"/>
     <path class="st14" d="M1071,248l7,5-7,5"/>
   </g>
-  <path class="st1" d="M1096.2,240h59.7c5.9,0,10.8,5.8,10.8,13h0c0,7.2-4.8,13-10.8,13h-59.7c-5.9,0-10.8-5.8-10.8-13h0c0-7.2,4.8-13,10.8-13Z"/>
-  <g class="st9">
-    <text class="st11" transform="translate(1096.9 257)"><tspan x="0" y="0">PredActor</tspan></text>
+  <path class="st17" d="M1096.2,240h59.7c5.9,0,10.8,5.8,10.8,13h0c0,7.2-4.8,13-10.8,13h-59.7c-5.9,0-10.8-5.8-10.8-13h0c0-7.2,4.8-13,10.8-13Z"/>
+  <g class="st4">
+    <g class="st4">
+      <text class="st6" transform="translate(1096.9 257)"><tspan x="0" y="0">PredActor</tspan></text>
+    </g>
   </g>
   <g>
-    <path class="st13" d="M1174.1,253h28"/>
+    <path class="st18" d="M1174.1,253h28"/>
     <path class="st14" d="M1197.1,248l7,5-7,5"/>
   </g>
-  <path class="st22" d="M1218,240h40.5c4.4,0,8,5.8,8,13h0c0,7.2-3.6,13-8,13h-40.5c-4.4,0-8-5.8-8-13h0c0-7.2,3.6-13,8-13Z"/>
-  <g class="st9">
-    <text class="st4" transform="translate(1215.2 257)"><tspan x="0" y="0">ACTION</tspan></text>
+  <path class="st19" d="M1218,240h40.5c4.4,0,8,5.8,8,13h0c0,7.2-3.6,13-8,13h-40.5c-4.4,0-8-5.8-8-13h0c0-7.2,3.6-13,8-13Z"/>
+  <g class="st4">
+    <g class="st4">
+      <text class="st2" transform="translate(1215.2 257)"><tspan x="0" y="0">ACTION</tspan></text>
+    </g>
   </g>
   <rect id="state-1" class="st21" x="196.4" y="162.8" width="34.6" height="34.6" rx="3" ry="3"/>
   <rect id="state-2" class="st20" x="242.6" y="143.5" width="34.6" height="53.9" rx="3" ry="3"/>
-  <rect id="state-3" class="st24" x="288.7" y="120.4" width="34.6" height="77" rx="3" ry="3"/>
-  <rect id="state-4" class="st19" x="334.9" y="95.4" width="34.6" height="98.1" rx="3" ry="3"/>
-  <line id="horizon-1" class="st16" x1="184.8" y1="207" x2="840" y2="207"/>
-  <path id="action-1" class="st22" d="M202.1,217.6h23.1c3.2,0,5.8,2.6,5.8,5.8h0c0,3.2-2.6,5.8-5.8,5.8h-23.1c-3.2,0-5.8-2.6-5.8-5.8h0c0-3.2,2.6-5.8,5.8-5.8Z"/>
-  <path id="action-2" class="st22" d="M248.3,217.6h23.1c3.2,0,5.8,2.6,5.8,5.8h0c0,3.2-2.6,5.8-5.8,5.8h-23.1c-3.2,0-5.8-2.6-5.8-5.8h0c0-3.2,2.6-5.8,5.8-5.8h0Z"/>
-  <rect id="action-3" class="st22" x="288.7" y="217.6" width="34.6" height="25" rx="3" ry="3"/>
-  <path id="action-4" class="st15" d="M340.7,220.5h23.1c3.2,0,5.8,2.6,5.8,5.8h0c0,3.2-2.6,5.8-5.8,5.8h-23.1c-3.2,0-5.8-2.6-5.8-5.8h0c0-3.2,2.6-5.8,5.8-5.8Z"/>
-  <g class="st9">
-    <text class="st10" transform="translate(391.5 197.4)"><tspan x="0" y="0">Pred</tspan></text>
+  <rect id="state-3" class="st23" x="288.7" y="120.4" width="34.6" height="77" rx="3" ry="3"/>
+  <rect id="state-4" class="st11" x="334.9" y="95.4" width="34.6" height="98.1" rx="3" ry="3"/>
+  <line id="horizon-1" class="st15" x1="184.8" y1="207" x2="840" y2="207"/>
+  <path id="action-1" class="st19" d="M202.1,217.6h23.1c3.2,0,5.8,2.6,5.8,5.8h0c0,3.2-2.6,5.8-5.8,5.8h-23.1c-3.2,0-5.8-2.6-5.8-5.8h0c0-3.2,2.6-5.8,5.8-5.8Z"/>
+  <path id="action-2" class="st19" d="M248.3,217.6h23.1c3.2,0,5.8,2.6,5.8,5.8h0c0,3.2-2.6,5.8-5.8,5.8h-23.1c-3.2,0-5.8-2.6-5.8-5.8h0c0-3.2,2.6-5.8,5.8-5.8h0Z"/>
+  <rect id="action-3" class="st19" x="288.7" y="217.6" width="34.6" height="25" rx="3" ry="3"/>
+  <path id="action-4" class="st13" d="M340.7,220.5h23.1c3.2,0,5.8,2.6,5.8,5.8h0c0,3.2-2.6,5.8-5.8,5.8h-23.1c-3.2,0-5.8-2.6-5.8-5.8h0c0-3.2,2.6-5.8,5.8-5.8Z"/>
+  <g class="st4">
+    <g class="st4">
+      <text class="st9" transform="translate(393.5 197.4)"><tspan x="0" y="0">Pred</tspan></text>
+    </g>
   </g>
-  <g class="st9">
-    <text class="st5" transform="translate(579.2 197.4)"><tspan x="0" y="0">Actor</tspan></text>
+  <g class="st4">
+    <g class="st4">
+      <text class="st1" transform="translate(581.2 197.4)"><tspan x="0" y="0">Actor</tspan></text>
+    </g>
   </g>
-  <g id="descriptor-native" class="st9">
-    <text class="st2" transform="translate(393.5 233)"><tspan x="0" y="0">PREDICTIVE</tspan></text>
-    <text class="st0" transform="translate(562.8 233)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st2" transform="translate(571.8 233)"><tspan x="0" y="0">ACTION DIFFUSION</tspan></text>
+  <g id="descriptor-native" class="st4">
+    <g class="st4">
+      <text class="st10" transform="translate(393.5 233)"><tspan x="0" y="0">PREDICTIVE</tspan></text>
+    </g>
+    <g class="st4">
+      <text class="st10" transform="translate(571.8 233)"><tspan x="0" y="0">ACTION DIFFUSION</tspan></text>
+    </g>
   </g>
 </svg>
