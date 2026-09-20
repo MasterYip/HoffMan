@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.16 151.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3e4649;
+      }
+
+      .cls-2 {
+        fill: #e7a12b;
+      }
+
+      .cls-3 {
+        stroke: #e7a12b;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 6.73px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #5a6466;
+      }
+
+      .cls-7 {
+        fill: #8d9599;
+      }
+
+      .cls-4 {
+        stroke: #333;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        stroke: #a7adaf;
+        stroke-width: 8.98px;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <rect id="state-1" class="cls-1" x="14.91" y="71.83" width="34.63" height="34.63" rx="3" ry="3"/>
+    <rect id="state-2" class="cls-6" x="61.09" y="52.59" width="34.63" height="53.88" rx="3" ry="3"/>
+    <rect id="state-3" class="cls-7" x="107.27" y="29.5" width="34.63" height="76.97" rx="3" ry="3"/>
+    <rect id="state-4" class="cls-5" x="153.45" y="4.49" width="34.63" height="98.13" rx="3" ry="3"/>
+    <line id="horizon-1" class="cls-4" x1="3.37" y1="116.09" x2="204.79" y2="116.09"/>
+    <path id="action-1" class="cls-2" d="M20.68,126.67h23.09c3.19,0,5.77,2.58,5.77,5.77h0c0,3.19-2.58,5.77-5.77,5.77h-23.09c-3.19,0-5.77-2.58-5.77-5.77h0c0-3.19,2.58-5.77,5.77-5.77Z"/>
+    <path id="action-2" class="cls-2" d="M66.86,126.67h23.09c3.19,0,5.77,2.58,5.77,5.77h0c0,3.19-2.58,5.77-5.77,5.77h-23.09c-3.19,0-5.77-2.58-5.77-5.77h0c0-3.19,2.58-5.77,5.77-5.77Z"/>
+    <rect id="action-3" class="cls-2" x="107.27" y="126.67" width="34.63" height="25.01" rx="3" ry="3"/>
+    <path id="action-4" class="cls-3" d="M159.22,129.56h23.09c3.19,0,5.77,2.58,5.77,5.77h0c0,3.19-2.58,5.77-5.77,5.77h-23.09c-3.19,0-5.77-2.58-5.77-5.77h0c0-3.19,2.58-5.77,5.77-5.77Z"/>
+  </g>
+</svg>
